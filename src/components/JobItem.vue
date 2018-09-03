@@ -2,7 +2,7 @@
   <div class="job">
     <div class="row navy">
       <i class="fas fa-angle-right job-icon"></i>
-      <span class="job-title">{{job.title}}</span>
+      <span>{{job.title}}</span>
     </div>
     <div class="row categories gray">
       <span class="category commitment">{{job.commitment}}</span>
@@ -36,8 +36,6 @@ export default {
 }
 .job-icon {
   margin-right: 10px;
-}
-.job-title {
 }
 .category {
   margin-right: 14px;
