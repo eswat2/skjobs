@@ -1,0 +1,36 @@
+<template>
+  <div class="wrapper">
+    <div class="jobs">
+      <JobItem v-for="job in jobs" :key="job.id" :job="job" />
+    </div>
+  </div>
+</template>
+
+<script>
+import { mapState } from 'vuex'
+import JobItem from './JobItem.vue'
+
+export default {
+  name: 'JobsList',
+  components: {
+    JobItem
+  },
+  computed: mapState({
+    jobs: state => state.jobs,
+  })
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.wrapper {
+  padding-top: 60px;
+  height: calc(100% - 100px);
+  overflow: auto;
+}
+.jobs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+</style>
