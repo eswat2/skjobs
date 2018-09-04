@@ -21,7 +21,7 @@ export default {
   }),
   data() {
     return {
-      poweredBy: 'Powered by Lever'
+      poweredBy: 'Jobs powered by LEVER'
     }
   }
 }
