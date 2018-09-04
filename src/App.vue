@@ -1,11 +1,12 @@
 <template>
   <div id="app">
-    <JobsList />
-    <Footer poweredBy="Powered by Lever"/>
+    <JobsList :jobs='jobs' />
+    <Footer :poweredBy='poweredBy' />
   </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import JobsList from './components/JobsList.vue'
 import Footer from './components/Footer.vue'
 
@@ -14,6 +15,14 @@ export default {
   components: {
     JobsList,
     Footer
+  },
+  computed: mapState({
+    jobs: state => state.jobs,
+  }),
+  data() {
+    return {
+      poweredBy: 'Powered by Lever'
+    }
   }
 }
 </script>

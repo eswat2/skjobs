@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
 import JobItem from './JobItem.vue'
 
 export default {
@@ -15,9 +14,9 @@ export default {
   components: {
     JobItem
   },
-  computed: mapState({
-    jobs: state => state.jobs,
-  })
+  props: {
+    jobs: Array
+  }
 }
 </script>
 
