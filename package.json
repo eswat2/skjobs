@@ -13,7 +13,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "postinstall": "yarn build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "git push heroku master"
   },
   "dependencies": {
     "axios": "0.19.0",
