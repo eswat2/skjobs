@@ -13,7 +13,8 @@
     "lint": "vue-cli-service lint",
     "postinstall": "yarn build",
     "start": "node server.js",
-    "deploy": "git push heroku master"
+    "deploy": "git push heroku master",
+    "open": "open https://skjobs.herokuapp.com"
   },
   "dependencies": {
     "@vue/cli-plugin-babel": "4.0.5",
