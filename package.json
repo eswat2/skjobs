@@ -18,9 +18,9 @@
     "open": "open https://eswat2.github.io/skjobs"
   },
   "dependencies": {
-    "@vue/cli-plugin-babel": "4.1.1",
-    "@vue/cli-plugin-eslint": "4.1.1",
-    "@vue/cli-service": "4.1.1",
+    "@vue/cli-plugin-babel": "4.1.2",
+    "@vue/cli-plugin-eslint": "4.1.2",
+    "@vue/cli-service": "4.1.2",
     "axios": "0.19.0",
     "babel-eslint": "10.0.3",
     "eslint": "6.8.0",
