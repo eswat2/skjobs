@@ -24,7 +24,7 @@
     "serve-static": "1.14.1",
     "vue": "2.6.12",
     "vue-template-compiler": "2.6.12",
-    "vuex": "3.5.1"
+    "vuex": "3.6.0"
   },
   "devDependencies": {
     "gh-pages": "3.1.0"
