@@ -1,8 +1,5 @@
-import Vue from 'vue'
 import Vuex from 'vuex'
 import helpers from './utils/helpers';
-
-Vue.use(Vuex)
 
 const store = new Vuex.Store({
   state: {
