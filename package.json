@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d dist --git git",
     "open": "open https://eswat2.github.io/skjobs"
   },
