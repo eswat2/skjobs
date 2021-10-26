@@ -13,7 +13,7 @@
     "open": "open https://eswat2.github.io/skjobs"
   },
   "dependencies": {
-    "axios": "0.23.0",
+    "axios": "0.24.0",
     "vue": "3.2.16",
     "vuex": "next"
   },
@@ -22,7 +22,7 @@
     "express": "4.17.1",
     "gh-pages": "3.2.3",
     "serve-static": "1.14.1",
-    "vite": "2.6.11"
+    "vite": "2.6.12"
   },
   "eslintConfig": {
     "root": true,
