@@ -13,7 +13,7 @@
     "open": "open https://eswat2.github.io/skjobs"
   },
   "dependencies": {
-    "axios": "0.24.0",
+    "axios": "0.25.0",
     "vue": "3.2.16",
     "vuex": "next"
   },
