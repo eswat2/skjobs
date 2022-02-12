@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "axios": "0.25.0",
-    "vue": "3.2.30",
+    "vue": "3.2.31",
     "vuex": "next"
   },
   "devDependencies": {
