@@ -18,7 +18,7 @@
     "vuex": "next"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "2.3.0",
+    "@vitejs/plugin-vue": "2.3.1",
     "express": "4.17.3",
     "gh-pages": "3.2.3",
     "serve-static": "1.15.0",
